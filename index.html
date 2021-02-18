@@ -14,11 +14,11 @@
 </head>
 <body class="container-fluid">
   <div class="desktop row">
-    <div class="map col-xs-12 col-md-8">
+    <div class="map col-xs-12 col-lg-8">
 
     </div>
-    <div class="list col-xs-6 col-md-4">
-      <form class="form-inline">
+    <div class="list col-xs-12 col-lg-4">
+      <div class="form-inline">
         <div class="city form-group col-xs-6">
           <label for="exampleDropdownFormEmail1">FIND STORES</label>
           <input type="email" class="form-control input-lg" id="exampleDropdownFormEmail1" placeholder="CITY STATE ZIP">
@@ -30,15 +30,77 @@
                 FILTER BY
             </button>
             <div class="dropdown-menu dropdown-menu-right">
-              <button class="dropdown-item" type="button">Action</button>
-              <button class="dropdown-item" type="button">Another action</button>
-              <button class="dropdown-item" type="button">Something else here</button>
+              <label class="checkbox">
+                <input type="checkbox"> Specialty
+              </label>
+              <label class="checkbox">
+                <input type="checkbox"> Factory Outlet
+              </label>
+              <label class="checkbox">
+                <input type="checkbox"> Authorized Dealer
+              </label>
+              <label class="checkbox">
+                <input type="checkbox"> Timberland PRO<sup>&reg;</sup> Footwear
+              </label>
+              <label class="checkbox">
+                <input type="checkbox"> Timberland PRO<sup>&reg;</sup> Workwear
+              </label>
             </div>
           </div>
         </div>
-      </form>
+      </div>
+      <hr>
+      <div class="store-list">
+        <div class="marker col-lg-2">
+          <h6>1</h6>
+        </div>
+        <div class="distance col-lg-6">
+          <h6>3.19 KM away</h6>
+        </div>
+      </div>
+      <h4>LOCATION - A</h4>
+      <p class="address">3000 East Katella Avenue</p>
+      <p class="address">Anaheim, CA 92806</p>
+      <div class="btn-pair">
+        <button type="button" class="btn btn-primary btn-lg-2">CALL STORE</button>
+        <button type="button" class="btn btn-primary btn-lg-2">GET DIRECTIONS</button>
+      </div>
+      <button type="button" class="btn btn-primary btn-lg btn-block">MORE INFO</button>
+      <hr>
+      <div class="store-list">
+        <div class="marker col-lg-2">
+          <h6>2</h6>
+        </div>
+        <div class="distance col-lg-6">
+          <h6>2.63 KM away</h6>
+        </div>
+      </div>
+      <h4>WAREHOUSE SHOE SALE - ANAHEIM</h4>
+      <p class="address">2114 East Lincoln Avenue</p>
+      <p class="address">Anaheim, CA 92806</p>
+      <div class="btn-pair">
+        <button type="button" class="btn btn-primary btn-lg-2">CALL STORE</button>
+        <button type="button" class="btn btn-primary btn-lg-2">GET DIRECTIONS</button>
+      </div>
+      <button type="button" class="btn btn-primary btn-lg btn-block">MORE INFO</button>
+      <hr>
+      <div class="store-list">
+        <div class="marker col-lg-2">
+          <h6>3</h6>
+        </div>
+        <div class="distance col-lg-6">
+          <h6>3.75 KM away</h6>
+        </div>
+      </div>
+      <h4>SHOETERIA - ANAHEIM</h4>
+      <p class="address">1922 East Lincoln Avenue</p>
+      <p class="address">Anaheim, CA 92806</p>
+      <div class="btn-pair">
+        <button type="button" class="btn btn-primary btn-lg-2">CALL STORE</button>
+        <button type="button" class="btn btn-primary btn-lg-2">GET DIRECTIONS</button>
+      </div>
+      <button type="button" class="btn btn-primary btn-lg btn-block">MORE INFO</button>
     </div>
   </div>
-  <script>$("#dropdown-toggle").dropdown("toggle");</script>
 </body>
 </html>
