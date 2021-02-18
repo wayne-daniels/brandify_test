@@ -1,0 +1,23 @@
+body {
+  margin: 0 auto;
+}
+
+.map {
+  background-image: url(../images/desktop_map.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+
+.list {
+  margin-top: 4rem;
+  height: 100vh;
+}
+
+input.form-control {
+  height: 3.5rem;
+}
+
+.filter {
+  margin-top: 2.5rem;
+}

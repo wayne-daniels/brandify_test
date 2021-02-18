@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brandify Test - Wayne Daniels</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" type="text/css" media="screen and (max-width: 768px) and (max-height: 1024px)" href="./assets/css/iphone_x_p.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</head>
+<body class="container-fluid">
+  <div class="desktop row">
+    <div class="map col-xs-12 col-md-8">
+
+    </div>
+    <div class="list col-xs-6 col-md-4">
+      <form class="form-inline">
+        <div class="city form-group col-xs-6">
+          <label for="exampleDropdownFormEmail1">FIND STORES</label>
+          <input type="email" class="form-control input-lg" id="exampleDropdownFormEmail1" placeholder="CITY STATE ZIP">
+        </div>
+        <div class="filter form-group col-xs-6">
+          <div class="btn-group">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+                FILTER BY
+            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+              <button class="dropdown-item" type="button">Action</button>
+              <button class="dropdown-item" type="button">Another action</button>
+              <button class="dropdown-item" type="button">Something else here</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script>$("#dropdown-toggle").dropdown("toggle");</script>
+</body>
+</html>
