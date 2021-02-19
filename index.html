@@ -8,28 +8,62 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
   <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" type="text/css" media="screen and (max-width: 768px) and (max-height: 1024px)" href="./assets/css/iphone_x_p.css">
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 </head>
 <body class="container-fluid">
   <div class="desktop row">
-    <div class="map col-xs-12 col-lg-8">
+    <div class="map col-xs-12 col-lg-8 visible-lg">
 
     </div>
     <div class="list col-xs-12 col-lg-4">
-      <div class="form-inline">
+      <div class="form-inline-mobile hidden-lg">
+        <div class="city-mobile form-group col-md-12 col-sm-12 col-xm-12">
+          <h4 for="exampleDropdownFormEmail1">FIND STORES</h4>
+          <input type="text" class="form-control input-lg" placeholder="CITY STATE ZIP">
+          <div class="toggle-row">
+            <div class="col-md-3 col-sm-3 col-xm-3">
+              <h4><a class="fa fa-list fa-lg"></a> LIST</h4>
+            </div>
+            <div class="mobile-toggles col-md-3 col-sm-3 col-xm-3">
+              <h4><a class="fa fa-map-marker fa-lg"></a> MAP</h4>
+            </div>
+            <div class="filter-mob col-md-3 col-sm-3 col-xm-3 btn-group">
+              <div class="btn-group">
+                <h4 class="dropdown-toggle mobile-filter" type="button" id="dropdownMenu1" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false"><a class="fa fa-filter fa-lg"></a> FILTER</h4>
+                <div class="mobile-drop dropdown-menu dropdown-menu-right col-xm-2">
+                  <label class="checkbox">
+                    <input type="checkbox"> Specialty
+                  </label>
+                  <label class="checkbox">
+                    <input type="checkbox"> Factory Outlet
+                  </label>
+                  <label class="checkbox">
+                    <input type="checkbox"> Authorized Dealer
+                  </label>
+                  <label class="checkbox">
+                    <input type="checkbox"> Timberland PRO<sup>&reg;</sup> Footwear
+                  </label>
+                  <label class="checkbox">
+                    <input type="checkbox"> Timberland PRO<sup>&reg;</sup> Workwear
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="form-inline visible-lg">
         <div class="city form-group col-xs-6">
           <label for="exampleDropdownFormEmail1">FIND STORES</label>
           <input type="email" class="form-control input-lg" id="exampleDropdownFormEmail1" placeholder="CITY STATE ZIP">
         </div>
         <div class="filter form-group col-xs-6">
           <div class="btn-group">
-            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-                FILTER BY
-            </button>
-            <div class="dropdown-menu dropdown-menu-right">
+            <h4 class="dropdown-toggle mobile-filter" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false"><a class="fa fa-filter fa-lg"></a> FILTER</h4>
+            <div class="dropdown-menu desktop-drop dropdown-menu-right">
               <label class="checkbox">
                 <input type="checkbox"> Specialty
               </label>
