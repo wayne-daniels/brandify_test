@@ -17,9 +17,10 @@ body {
 }
 
 .toggle-row {
+  margin-top: 1.5rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .fa {
@@ -32,10 +33,38 @@ body {
   padding-left: 1rem;
 }
 
-.mobile-drop {
-  background-color: white;
-  width: 25vw;
-  padding-left: 3rem;
+.dropdown-toggle-list {
+  position: relative;
+}
+
+.mobile-drop-list {
+  position: absolute;
+  top: 8rem;
+  left: -4.5rem;
+  width: 100vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.mobile-drop-map {
+  position: absolute;
+  top: 8rem;
+  right: auto;
+  width: 100vw;
+  background-image: url(../images/mobile_map.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+
+.mobile-drop-filter {
+  position: absolute;
+  top: 8rem;
+  right: -12rem;
+  width: 100vw;
+  padding-left: 4rem;
+  padding-right: 2rem;
+  font-size: 2rem;
 }
 
 .mobile-filter:hover {
